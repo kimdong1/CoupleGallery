@@ -1,0 +1,31 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-172b1fa5d1f-204198b0a8794ed8": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "MariaDB - test_schema",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "test_schema",
+				"url": "jdbc:mysql://localhost:3306/test_schema",
+				"home": "C:\\Program Files\\MariaDB 10.4",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
